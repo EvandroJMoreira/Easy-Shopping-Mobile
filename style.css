@@ -103,6 +103,7 @@ button:active {
         padding: 0;
         margin: 0;
         flex-direction: column;
+
     }
 
     header {
@@ -121,9 +122,10 @@ button:active {
 
     img {
         position: static;
+        right: 0;
         max-width: 80%;
-        
-
+        right: auto;
+        left: auto;
     }
 
     .text {
@@ -131,6 +133,7 @@ button:active {
         height: 50%;
         display: block;
         order: 1;
+        padding-left: 0;
         margin: 10px, auto;
 
     }
@@ -155,4 +158,5 @@ button:active {
         margin: 15px auto 47px auto;
         display: block;
     }
+
 }
