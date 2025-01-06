@@ -122,10 +122,8 @@ button:active {
 
     img {
         position: static;
-        right: 0;
         max-width: 80%;
-        right: auto;
-        left: auto;
+        width: 100vw;
     }
 
     .text {
